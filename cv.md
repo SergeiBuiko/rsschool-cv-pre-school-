@@ -1,7 +1,7 @@
-# [rsschool-cv](https://github.com/SergeiBuiko/rsschool1-cv)
+# [rsschool-cv](https://sergeibuiko.github.io/rsschool-cv/cv)
 
 ## Buiko Sergei 
-
+![ava](G:\rsschool-cv\Avatar.png)
 ### Junior Frontend Developer 
 
 ### Contact information:
