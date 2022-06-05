@@ -26,3 +26,11 @@ function multiply(a, b){
   return a * b
 }
 ```
+
+### Education
+
+**University:** Belarusian State University of Informatics and Radioelectronics 
+
+### English
+
+A1
