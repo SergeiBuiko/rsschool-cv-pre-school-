@@ -1,13 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/Img/CV1.ico">
+  <title>Document</title>
 </head>
+
 <body>
-    <h1>My First HTML!</h1>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#project" class="nav-link">PROJECTS</a></li>
+          <li class="nav-item"><a href="#socials" class="nav-link">Socials</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+      <section class="profile">
+        <img class="photo" src="./assets/Img/myphoto.jpg"  height="auto" width="250" alt="photo">
+        <div class="name">
+          <h1>Buiko Sergei </h1>
+          <h3>Junior Front-end Developer</h3>
+        </div>
+      </section>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <div class="container1">
+        <section class="section" id="summary">
+          <h2> Briefly about myself</h2>
+          <p>For a long time after graduation I worked first as a design engineer, and then the chief specialist in the
+            design organization.
+            But for a long time I was interested in WEB-development.
+            My friends advised me to take an interesting and productive Frontend Developer course
+            and I decided to make a major change in my professional career.
+            I believe that my determination and dedication will help me to succeed.
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2>
+            Education
+          </h2>
+          <p>Belarusian State University of Informatics and Radioelectronics </p>
+          <span> Minsk, Belarus 2003-2008</span>
+        </section>
+        <section class="code" id="code">
+          <h2>Code</h2>
+          <pre>
+function multiply(a, b){
+return a * b
+}          </pre>
+        </section>
+        <section class="section" id="project">
+          <h2>
+            PROJECTS
+          </h2>
+          <ul>
+            <li><a href="https://sergeibuiko.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a></li>
+            <li><a href="https://sergeibuiko.github.io/rsschool-cv/">CV#2. HTML, CSS & Git Basics</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="container2">
+        <aside class="aside">
+          <div class="contact_info" id="contacts">
+            <h2>Contact information</h2>
+            <ul>
+              <li><img src="./assets/Img/Location.svg" alt="Location"> Minsk, Belarus </li>
+              <li><img src="./assets/Img/phone.svg" alt="phone"> +375 33 3346792</li>
+              <li><img src="/assets/Img/mail.svg" alt="mail"><a href="mailto:sergeibuiko1@gmail.com">
+                  sergeibuiko1@gmail.com </a></li>
+            </ul>
+          </div>
+          <div class="socials" id="socials">
+            <h2>Socials</h2>
+            <ul>
+              <lI><img src="./assets/Img/telegramm.png" alt="telegramm" width="12" height="12"><a
+                  href="https://t.me/sergeibuiko"> @sergeibuiko </a></lI>
+              <lI><img src="./assets/Img/instagramm.svg" alt="instagramm"><a href="https://www.instagram.com/buiko794/">
+                  Buiko794 </a></lI>
+            </ul>
+          </div>
+          <div class="skills" id="skills">
+            <h2>Skills and Proficiency</h2>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript</li>
+              <li>Git, GitHub</li>
+            </ul>
+          </div>
+          <div class="english" id="english">
+            <h2>English</h2>
+            <p>A1</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="footer ">
+    <div class="container footer-container">
+      <a href="https://github.com/SergeiBuiko">© 2022 SergeiBuiko</a>
+      <div>
+        <a href="https://rs.school/js/"><img src="./assets/Img/rs_school_js.svg" alt="rs_school_js"></a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
